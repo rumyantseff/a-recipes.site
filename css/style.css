@@ -221,14 +221,20 @@ nav li #second-dishes:hover, #soups:hover, #others:hover, #uncooked:hover{
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 800px){
+@media only screen and (min-width: 768px){
     .navbar-toggler-icon{
         margin-right: 100px;
     } 
     .container .card{
         margin-left: 30px;
     }
-
+    .image-home{
+        width: 130px;
+        height: 173px;
+    }
+    .card-body{
+        /* margin-right: 100px; */
+    }
     .container{
         align-items: center;
         text-align: center;
@@ -258,3 +264,7 @@ nav li #second-dishes:hover, #soups:hover, #others:hover, #uncooked:hover{
     }
     
 }
+/* @media only screen and (min-width: 1366px){
+
+
+} */
